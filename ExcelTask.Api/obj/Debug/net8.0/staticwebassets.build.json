@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7Aq/S3VmxS9GaYRL0yysJqA3P3xmKXKGullMu9EMrLE=",
+  "Source": "ExcelTask.Api",
+  "BasePath": "_content/ExcelTask.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
