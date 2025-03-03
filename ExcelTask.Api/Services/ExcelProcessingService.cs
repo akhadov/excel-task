@@ -51,7 +51,7 @@ public class ExcelProcessingService(IDbConnectionFactory dbConnectionFactory) : 
         {
             bool isEmptyRow = true;
 
-            for (int i = 0; i < reader.FieldCount; i++) 
+            for (int i = 0; i < reader.FieldCount; i++)
             {
                 object cellValue = reader.GetValue(i);
                 if (cellValue != null && cellValue != DBNull.Value && !string.IsNullOrWhiteSpace(cellValue.ToString()))
@@ -124,6 +124,14 @@ public class ExcelProcessingService(IDbConnectionFactory dbConnectionFactory) : 
         bool columnMatch = datasetColumns.SequenceEqual(recordLayoutColumns);
         bool columnCountMatch = datasetColumns.Count == expectedColumnCount;
         bool rowCountMatch = actualDatasetRowCount == expectedRowCount;
+
+        string validationStatus = (columnMatch && columnCountMatch && rowCountMatch) ? "Success" : "Fail";
+        string description = validationStatus == "Success"
+            ? "Dataset matches control figures."
+            : "Mismatch in column count, row count, or dataset structure.";
+
+        await CreateCompareResultsTableAsync();
+        await InsertCompareResultsAsync(expectedColumnCount, datasetColumns.Count, expectedRowCount, actualDatasetRowCount, validationStatus, description);
 
         return columnMatch && columnCountMatch && rowCountMatch;
     }
@@ -244,5 +252,44 @@ public class ExcelProcessingService(IDbConnectionFactory dbConnectionFactory) : 
             .Replace(")", "")
             .Replace("[", "")
             .Replace("]", "");
+    }
+
+    private async Task CreateCompareResultsTableAsync()
+    {
+        await using DbConnection connection = await dbConnectionFactory.OpenConnectionAsync();
+
+        string createTableQuery = @"
+            CREATE TABLE IF NOT EXISTS compare_results (
+                Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                Expected_Column_Count INTEGER,
+                Actual_Column_Count INTEGER,
+                Expected_Row_Count INTEGER,
+                Actual_Row_Count INTEGER,
+                Validation_Status TEXT,
+                Description TEXT,
+                Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+            );";
+
+        await connection.ExecuteAsync(createTableQuery);
+    }
+
+    private async Task InsertCompareResultsAsync(double expectedColumnCount, int actualColumnCount,
+        double expectedRowCount, int actualRowCount, string validationStatus, string description)
+    {
+        await using DbConnection connection = await dbConnectionFactory.OpenConnectionAsync();
+
+        string insertQuery = @"
+            INSERT INTO compare_results (Expected_Column_Count, Actual_Column_Count, Expected_Row_Count, Actual_Row_Count, Validation_Status, Description)
+            VALUES (@ExpectedColumnCount, @ActualColumnCount, @ExpectedRowCount, @ActualRowCount, @ValidationStatus, @Description);";
+
+        await connection.ExecuteAsync(insertQuery, new
+        {
+            ExpectedColumnCount = expectedColumnCount,
+            ActualColumnCount = actualColumnCount,
+            ExpectedRowCount = expectedRowCount,
+            ActualRowCount = actualRowCount,
+            ValidationStatus = validationStatus,
+            Description = description
+        });
     }
 }

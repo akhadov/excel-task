@@ -882,11 +882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\ExcelTask.Api.csproj",
+      "projectUniqueName": "C:\\Users\\DataMicron\\Desktop\\projects\\excel-task\\ExcelTask.Api\\ExcelTask.Api.csproj",
       "projectName": "ExcelTask.Api",
-      "projectPath": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\ExcelTask.Api.csproj",
+      "projectPath": "C:\\Users\\DataMicron\\Desktop\\projects\\excel-task\\ExcelTask.Api\\ExcelTask.Api.csproj",
       "packagesPath": "C:\\Users\\DataMicron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\obj\\",
+      "outputPath": "C:\\Users\\DataMicron\\Desktop\\projects\\excel-task\\ExcelTask.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

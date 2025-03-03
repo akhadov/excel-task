@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelTask.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a492ea079248987baa616ab611976d47faa8d3f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelTask.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelTask.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

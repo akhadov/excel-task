@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\",
+  "WorkspaceRootPath": "C:\\Users\\DataMicron\\Desktop\\projects\\excel-task\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\services\\excelprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\desktop\\projects\\excel-task\\exceltask.api\\services\\excelprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\services\\excelprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\controllers\\excelprocessingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\controllers\\excelprocessingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\services\\interfaces\\iexcelprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\services\\interfaces\\iexcelprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\exceltask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\exceltask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\data\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\data\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|c:\\users\\datamicron\\source\\repos\\exceltask\\exceltask.api\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BAEFD7-B4EA-425E-862D-7E57C2AA9761}|ExcelTask.Api\\ExcelTask.Api.csproj|solutionrelative:exceltask.api\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,106 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExcelProcessingController.cs",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Controllers\\ExcelProcessingController.cs",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\Controllers\\ExcelProcessingController.cs",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Controllers\\ExcelProcessingController.cs",
-              "RelativeToolTip": "ExcelTask.Api\\Controllers\\ExcelProcessingController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:27:35.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExcelTask.Api",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\ExcelTask.Api.csproj",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\ExcelTask.Api.csproj",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\ExcelTask.Api.csproj",
-              "RelativeToolTip": "ExcelTask.Api\\ExcelTask.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-28T09:17:20.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\appsettings.Development.json",
-              "RelativeToolTip": "ExcelTask.Api\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T09:16:32.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Program.cs",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Program.cs",
-              "RelativeToolTip": "ExcelTask.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:20:05.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ExcelProcessingService.cs",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Services\\ExcelProcessingService.cs",
+              "DocumentMoniker": "C:\\Users\\DataMicron\\Desktop\\projects\\excel-task\\ExcelTask.Api\\Services\\ExcelProcessingService.cs",
               "RelativeDocumentMoniker": "ExcelTask.Api\\Services\\ExcelProcessingService.cs",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Services\\ExcelProcessingService.cs",
+              "ToolTip": "C:\\Users\\DataMicron\\Desktop\\projects\\excel-task\\ExcelTask.Api\\Services\\ExcelProcessingService.cs",
               "RelativeToolTip": "ExcelTask.Api\\Services\\ExcelProcessingService.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAAwOsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAuwCYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:19:43.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IExcelProcessingService.cs",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Services\\Interfaces\\IExcelProcessingService.cs",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\Services\\Interfaces\\IExcelProcessingService.cs",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Services\\Interfaces\\IExcelProcessingService.cs",
-              "RelativeToolTip": "ExcelTask.Api\\Services\\Interfaces\\IExcelProcessingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:19:03.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbConnectionFactory.cs",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Data\\DbConnectionFactory.cs",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\Data\\DbConnectionFactory.cs",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Data\\DbConnectionFactory.cs",
-              "RelativeToolTip": "ExcelTask.Api\\Data\\DbConnectionFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:18:06.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDbConnectionFactory.cs",
-              "DocumentMoniker": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Data\\IDbConnectionFactory.cs",
-              "RelativeDocumentMoniker": "ExcelTask.Api\\Data\\IDbConnectionFactory.cs",
-              "ToolTip": "C:\\Users\\DataMicron\\source\\repos\\ExcelTask\\ExcelTask.Api\\Data\\IDbConnectionFactory.cs",
-              "RelativeToolTip": "ExcelTask.Api\\Data\\IDbConnectionFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:17:27.085Z",
+              "WhenOpened": "2025-03-03T08:50:59.378Z",
               "EditorCaption": ""
             }
           ]
